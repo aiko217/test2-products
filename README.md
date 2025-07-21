@@ -27,3 +27,22 @@ DB_PASSWORD=laravel_pass
 ``` bash
 php artisan key:generate
 ```
+
+6. マイグレーションの実行
+``` bash
+php artisan migrate
+```
+
+7. シーディングの実行
+``` bash
+php artisan db:seed
+```
+
+## 使用技術(実行環境)
+- PHP 7.4.9 
+- Laravel 8.83.8
+- MySQL8.0
+
+- ## URL
+- 開発環境：http://localhost/
+- phpMyAdmin:：http://localhost:8080/
