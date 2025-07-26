@@ -1,0 +1,119 @@
+.product-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.product-form__heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.product-form__group {
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+    
+}
+
+.product-form__label {
+    margin-bottom: 0.5rem;
+}
+
+.product-form__required {
+    display: inline-block;
+    background: #e74c3c;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0 0.25rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.product-form__note-multi {
+    font-size: 0.75rem;
+    color: #e74c3c;
+    margin-left: 0.5rem;
+}
+
+.product-form__input,
+.custom-file-upload,
+.product-form__textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form__input--checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.4rem;
+}
+
+.checkbox-label input[type="checkbox"] {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+
+    width: 1.2em;
+    height: 1.2em;
+
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox-label input[type="checkbox"] {
+
+    border-radius: 50%;
+    border: 2px solid #6a4e42;
+}
+
+.checkbox-label input[type="checkbox"]:checked {
+    background-color: #6a4e42;
+    border-color: #6a4e42;
+}
+
+.product-form__error-message {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+}
+
+.product-form__btn-inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    border-radius: 10px;
+    border: none;
+    
+        gap: 32px;
+}
+
+.product-form__register-btn {
+    background-color: orange;
+    border: none;
+}
+
+.product-form__back-btn {
+    background-color: rgb(187, 185, 185);
+    border: none;
+}
+
+
+
+
+
+
+
+
